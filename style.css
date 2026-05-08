@@ -1,3 +1,5 @@
-/* Custom styles are optional because Tailwind is loaded from CDN.
-   Use this file for extra layout tweaks if needed. */
-   
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    
+}

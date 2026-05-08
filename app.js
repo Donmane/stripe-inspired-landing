@@ -1,6 +1,7 @@
-let menu = document.getElementById("menu");
-let ham = document.getElementById("ham");
-ham.addEventListener("click",function name() {
-    menu.classList.toggle("hidden");
-    
+let navLinks = document.querySelector(".nav-links");
+let icon = document.getElementById("icon");
+icon.addEventListener("click",function (e) {
+    icon.name = icon.name === "menu" ? "close" : "menu";
+    navLinks.classList.toggle('top-[9%]');
+
 })
